@@ -1,0 +1,104 @@
+html {
+	overflow-y: scroll;
+	font-family:"Segoe UI",Arial,sans-serif;
+}
+
+body{
+	background-color: #e7f4f5;
+	margin: 0px;
+}
+.encContainer{
+	width: 65vw;
+	min-height: 93vh;
+	margin: 0 auto;
+    background: white;
+    border:1px solid white;
+}
+.submitContainer{
+	width: 40vw;
+	background-color: white;
+	height: 200px;
+	margin: 3vh auto;
+	border-radius: 2% 2%;
+	border:2px dashed red;
+	padding: 20px;
+}
+#inputFile{
+	width: 0.1px;
+	height: 0.1px;
+	position: absolute;
+	font-size: 1000px;
+	opacity: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+#uploadFilesBtn{
+	background-color: #ff6262;
+	width: 15vw;
+    min-width: 100px;
+	padding: 5px;
+	border-radius: 20px;
+	border:1px solid red;
+	margin: 10px;
+	font-size: 0.8em;
+}
+#uploadSelect{
+	color: green;
+	font-size: x-large;
+}
+#uploadSelect img{
+	width: 115px;
+	height: 120px;
+}
+.mainHeader{
+    font-size: xx-large;
+    padding: 10px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    background-color: #87CEEB;
+}
+.chooseFile{
+	display: block;
+}
+table#uploadDetails {
+	margin: auto;
+    border-collapse: collapse;
+}
+
+table#uploadDetails, td, th {
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    padding-left: 10px;
+    color: #5f5f99;
+    word-break: break-all;
+}
+table#uploadDetails  tr th{
+	max-width: 30vw;
+}
+
+label,
+#uploadFilesBtn{
+	cursor: pointer;
+}
+
+#normalUpload label:hover,
+#normalUpload label:focus,
+#uploadFilesBtn:hover,
+#uploadFilesBtn:focus {
+    opacity:0.8;
+}
+
+#normalUpload {
+	text-align: center;
+}
+
+#uploadStatus{
+	margin: 1vh auto;
+	padding: 10px;
+	text-align: center;
+	max-width: 30vw;
+	border-radius: 10px;
+	visibility:hidden;
+    background: #f1deea;
+}

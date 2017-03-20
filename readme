@@ -1,0 +1,19 @@
+Author: Godlyn Paul
+Email : godlynpaul@gmail.com
+        godlynpaul1@gmail.com
+================================
+Requirements 
+
+UI implementation of file upload. 
+- Multiple file upload scenario based on user selection 
+- No library should be used.
+================================
+Drawbacks
+
+The code to send the data to the server will fail as the url to hit is url="" base.js(Lineno:32)
+.send() function will fail so it will always result in uploading fail.
+================================
+For best experience 
+Browser: Chrome 
+Please run the http-server and then access the index.html to view all the functionality.
+================================

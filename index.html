@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Upload</title>
+	<link rel="stylesheet" type="text/css" href="styles\base.css">
+<head>
+<body>
+	<span  class="mainHeader">File upload</span>
+	<div class="encContainer">
+		<div id="uploadStatus"></div>
+		<div class="submitContainer">
+
+			<form enctype="multipart/form-data" id="normalUpload" >
+				<input id="inputFile" type="file" name="inputFile"  multiple required>
+				<label id="uploadSelect" for="inputFile">
+					<img src="images\uploadIcon.png" alt="Download image">
+					<span class="chooseFile"> Choose File </span>
+				</label>
+				<input id="uploadFilesBtn" type="button" name="uploadFiles" form="normalUpload" value="Upload Files">
+			</form>
+		</div>
+		<table id="uploadDetails">
+			<thead id="uploadDetailsHead"></thead>
+			<tbody id="uploadDetailsBody"></tbody>
+		</table>
+	</div>
+</body>
+<script type="text/javascript" src="scripts\base.js"></script>
+</script>
+</html>
